@@ -1,8 +1,8 @@
 {
   "name": "m42-signage-service",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A simple digital signage service running on the MERN stack.",
-  "main": "./server/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
