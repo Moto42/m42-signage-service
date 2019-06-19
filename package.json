@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/Moto42/m42-signage-service/issues"
   },
-  "homepage": "https://github.com/Moto42/m42-signage-service#readme"
+  "homepage": "https://github.com/Moto42/m42-signage-service#readme",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
 }
