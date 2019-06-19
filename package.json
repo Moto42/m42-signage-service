@@ -1,0 +1,24 @@
+{
+  "name": "m42-signage-service",
+  "version": "1.0.0",
+  "description": "A simple digital signage service running on the MERN stack.",
+  "main": "./server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moto42/m42-signage-service.git"
+  },
+  "keywords": [
+    "digital signage",
+    "Node",
+    "React"
+  ],
+  "author": "Wesley Williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Moto42/m42-signage-service/issues"
+  },
+  "homepage": "https://github.com/Moto42/m42-signage-service#readme"
+}
