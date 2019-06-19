@@ -7,7 +7,7 @@ class App extends React.Component {
 
     /* jshint ignore:start */
     return (<div>
-      Hello Sign
+      Hello Admin
     </div>);
     /* jshint ignore:end */
   }

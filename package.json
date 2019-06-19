@@ -4,12 +4,13 @@
   "description": "A simple digital signage service running on the MERN stack.",
   "main": "index.js",
   "babel": {
-    "presets" : [
+    "presets": [
       "@babel/preset-env",
       "@babel/preset-react"
     ]
   },
   "scripts": {
+    "start" : "webpack-dev-server --open",
     "create": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
