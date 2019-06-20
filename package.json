@@ -10,7 +10,7 @@
     ]
   },
   "scripts": {
-    "start" : "webpack-dev-server --open chrome",
+    "start": "webpack-dev-server --open chrome",
     "create": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
