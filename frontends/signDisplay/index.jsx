@@ -1,13 +1,33 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React     from 'react';
+import ReactDOM  from 'react-dom';
+import Slideshow from './components/Slideshow.jsx';
 import './index.css';
 
 class App extends React.Component {
   render(){
 
+    const slideshow = {
+      slides: [
+        {
+          template: 'Markdown',
+          transition: 'slidein-left',
+          contents: {
+            mdtext: "This is the First markdown slide.",
+          }
+        },
+        {
+          template: 'Markdown',
+          transition: 'slidein-left',
+          contents: {
+            mdtext: "This is the Second markdown slide.",
+          }
+        }
+      ]
+    }
+
     /* jshint ignore:start */
     return (<div>
-      Hello Sign
+      <Slideshow slideshow={slideshow} />
     </div>);
     /* jshint ignore:end */
   }
