@@ -30,6 +30,7 @@
   },
   "homepage": "https://github.com/Moto42/m42-signage-service#readme",
   "dependencies": {
+    "marked": "^0.6.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
