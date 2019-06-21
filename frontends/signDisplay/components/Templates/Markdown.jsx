@@ -1,5 +1,6 @@
-import React from 'react'
-
+import React from 'react';
+import Parser from 'html-react-parser';
+import marked from 'marked';
 
 
 /* Slide object reference for this template
@@ -17,8 +18,9 @@ class Markdown extends React.Component {
   }
 
   render() {
+    const htmlPile = marked(this.props.slide.contents.mdtext);
     return (<div>
-      {this.props.slide.contents.mdtext}
+      {Parser(htmlPile)}
     </div>)
   }
 }

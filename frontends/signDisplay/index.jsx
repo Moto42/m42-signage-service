@@ -12,14 +12,14 @@ class App extends React.Component {
           template: 'Markdown',
           transition: 'slidein-left',
           contents: {
-            mdtext: "This is the First markdown slide.",
+            mdtext: "# Fully working markdown!\n\n This is the First markdown slide.\n\n - List item 1\n -List item 2",
           }
         },
         {
           template: 'Markdown',
           transition: 'slidein-left',
           contents: {
-            mdtext: "This is the Second markdown slide.",
+            mdtext: "# More working markdown!\n\n **This is bold**\n\n *This is italic*\n\n ~~It just works~~",
           }
         }
       ]
